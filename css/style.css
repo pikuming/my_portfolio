@@ -124,6 +124,13 @@ li {
   -ms-transition-delay:400ms;
 }
 
+/* 4つ目の要素に600msのdelayをかける */
+.item_fadein:nth-of-type(4) {
+  -moz-transition-delay:600ms;
+  -webkit-transition-delay:600ms;
+  -o-transition-delay:600ms;
+  -ms-transition-delay:600ms;
+}
 
 /*--------------------------------
  レイアウト
