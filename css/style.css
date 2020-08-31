@@ -289,27 +289,6 @@ li {
 }
 
 /*--------------------------------
- Feature
----------------------------------*/
-.feature-item {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.feature-image-wrapper {
-  flex: 0 0 45%;
-  margin-right: 40px;
-}
-
-.feature-body {
-  flex: 1;
-}
-
-.feature-body p:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-/*--------------------------------
  About
 ---------------------------------*/
 .about .en_name {
@@ -359,7 +338,7 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 50px;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .skill-image-wrapper {
